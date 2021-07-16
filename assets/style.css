@@ -1,0 +1,59 @@
+	
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+.mapBlock {
+    width: 100%;
+    height: 500px
+}
+.mapwrap {
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+.mapSettings {
+    position: absolute;
+    z-index: 5555;
+    left: 0;
+    bottom: 0
+}
+.mapSettings ul {
+    border-radius: 5px;
+    padding: 0 10px;
+    background: #fff
+}
+.mapSettings ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: -3px
+}
+.mapSettings ul li:hover {
+    color: #109e2e
+}
+.simpleIcon {
+    border-radius: 50%;
+    padding: 8px 0;
+    font-size: 17px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center
+}
+.hideIcons {
+    display: none !important
+}
+.clickIcon:hover {
+    transition: all .3s ease;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .8), 0 0 0 2px #000 !important
+}
+.avtiveIcon {
+    box-shadow: 0 0 0 2px #fff !important
+}
+.rightBlock {
+    width: 400px;
+    float: right;
+    height: 100%;
+    border-left: 1px solid #f1f1f1;
+    overflow-y: scroll
+}

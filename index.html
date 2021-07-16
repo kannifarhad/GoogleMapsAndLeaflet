@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanni Farhad - Google Maps And Leaflet</title>
+    <!-- <link rel="stylesheet" href="assets/icons/style.css"> -->
+    <link rel="stylesheet" href="assets/style.css?v=1.4">
+    <link rel="stylesheet" href="assets/leaflet/css/leaflet.css" />
+    <script src="assets/html2canvas.min.js"></script>
+    <script src="assets/FileSaver.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="mapwrap">
+            <div id="mapid" class="mapBlock"></div>
+        </div>
+    </div>
+
+</body>
+
+<script src="assets/leaflet/js/leaflet.js"></script>
+<script src="assets/leaflet/js/Easy.Button.js"></script>
+<script src="assets/leaflet/js/Leaflet.PolylineMeasure.js"></script>
+<script src="assets/leaflet/js/leaflet-routing-machine.js"></script>
+<script src="assets/jquery-3.3.1.slim.min.js"></script>
+<script src="assets/custom.js?v=1.6"></script>
+
+<script>
+
+    var URI = '';
+    MapHelper.init('mapid', {
+          zoom: 10,
+          center: L.latLng(40.459859, 49.979394)
+    });
+
+    // MapHelper.loadData(moment().format('DD.MM.YYYY HH:mm'));
+ </script>
+</html>
