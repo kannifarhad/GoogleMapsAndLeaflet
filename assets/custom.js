@@ -143,7 +143,7 @@ MapHelper = (function ($) {
          }
       }, 'İki məntəqə arasında Yolun çəkilməsi').addTo(map);
 
-      L.easyButton(`icon-earth-globe `, function (btn, map) {
+      L.easyButton(`<img class="mapImgIcon" src="assets/leaflet/img/vector.svg" /> `, function (btn, map) {
          if (mapType) {
             btn.button.className = btn.button.className.replace("mapButtonActive", "");
             changeTile('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}');

@@ -102,6 +102,11 @@
     width: 20px;
     height: 20px;
 }
+.mapImgIcon {
+    width: 18px;
+    margin: 5px 0px 0px 0px;
+    display: block;
+}
 
 .leaflet-routing-icon-continue         { background-position: 0 0; }
 .leaflet-routing-icon-sharp-right      { background-position: -20px 0; }
